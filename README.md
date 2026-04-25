@@ -1,3 +1,3 @@
 # Power Grid Optimization
 
-A series of Jupyter notebooks documenting my studying of power grid optimization fundamentals as a researcher. A table of contents is as following.
+A series of Jupyter notebooks on power grid optimization fundamentals. A table of contents is as follows.
