@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Data (large test cases - reference by download script instead)
+data/**/*.mat
+data/**/*.m
+data/**/*.raw
+
+# Solver output / logs
+*.nl
+*.sol
+*.log
+ipopt.opt
+
+# HSL solvers (proprietary, never commit)
+*coinhsl*
+*ma57*
+*ma27*
+*.f
