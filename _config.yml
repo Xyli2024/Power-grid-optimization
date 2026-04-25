@@ -3,7 +3,7 @@
 
 title: Power Grid Optimization
 author: Xinyu Li
-logo: images/cover.jpg
+logo: ""
 copyright: "2026"
 
 # Don't re-execute notebooks when building
@@ -22,7 +22,6 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: false
-  logo_only: false
 
 # GitHub repository info
 repository:
