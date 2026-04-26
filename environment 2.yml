@@ -1,0 +1,26 @@
+name: pgopt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - networkx
+  - pyomo
+  - ipopt          # nonlinear solver (open-source)
+  - glpk           # linear/MILP solver (open-source)
+  - pip
+  - pip:
+    - highspy      # HiGHS LP/MIP solver Python interface
+    - egret        # ARPA-E power systems modeling library
+    - pypower      # Power systems analysis (MATPOWER port)
+    - pandapower   # Power system analysis toolbox
+    - scikit-learn
+    - torch
+    - cvxpy        # Convex optimization (for SDP relaxations)

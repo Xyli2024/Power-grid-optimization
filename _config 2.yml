@@ -1,0 +1,35 @@
+# Jupyter Book configuration
+# See https://jupyterbook.org/customize/config.html
+
+title: Power Grid Optimization
+author: Xinyu Li
+logo: ""
+copyright: "2026"
+
+# Don't re-execute notebooks when building
+execute:
+  execute_notebooks: "off"
+
+# Math rendering
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - colon_fence
+
+# HTML settings
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
+
+# GitHub repository info
+repository:
+  url: https://github.com/Xyli2024/power-grid-optimization
+  branch: main
+  path_to_book: .
+
+# Sphinx settings
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
